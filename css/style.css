@@ -1,0 +1,57 @@
+#game {
+	display: block;
+	left: 100px;
+}
+
+.text {
+	color: red;
+}
+
+.img_matvey {
+	float: right;
+	width: 500px;
+	float: right;
+}
+
+.flexbox_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	border: 20px solid #ece89d;
+	margin: 0px 0px 20px 0px;
+}
+
+.flexbox_column {
+	border: 20px solid #5e5373;
+}
+
+.flexbox_item {
+	background-color: #18b5a4;
+	padding: 30px 50px;
+	font-size: 50px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.table {
+	border: 4px double black;
+	padding: 10px;
+	background-color: #fc3;
+}
+
+.table td {
+	padding: 10px;
+	border: 1px solid #fff;
+}
+
+.form {
+	text-align: left;
+}
+
+.name_matvey {
+	text-align: center;
+}
+
+.centers {
+	text-align: center;
+}
