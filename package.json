@@ -1,16 +1,26 @@
 {
-  "name": "my_npm",
+  "name": "fferum-webpack",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.6.0"
   },
-  "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fferum990/first_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fferum990/first_project/issues"
+  },
+  "homepage": "https://github.com/fferum990/first_project#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack-cli": "^4.9.0"
+  }
 }
