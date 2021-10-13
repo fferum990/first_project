@@ -2,10 +2,10 @@ const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
 const ground = new Image();
-ground.src = "img/ground.png";
+ground.src = "src/img/ground.png";
 
 const foodImg = new Image();
-foodImg.src = "img/food.png";
+foodImg.src = "src/img/food.png";
 
 let box = 16;
 
