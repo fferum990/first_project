@@ -4,12 +4,15 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "sass": "node-sass -w sass/ -o css/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.6.0"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1"
   },
   "keywords": [],
   "repository": {
