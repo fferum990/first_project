@@ -1,9 +1,10 @@
+import '../css/style.css'
 var canvas = document.getElementById("game");
 var ctx = canvas.getContext("2d");
 var ground = new Image();
-ground.src = "img/ground.png";
+ground.src = "./img/ground.png";
 var foodImg = new Image();
-foodImg.src = "img/food.png";
+foodImg.src = "./img/food.png";
 var box = 16;
 var score = 0 + "";
 var food = {
