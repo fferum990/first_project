@@ -6,7 +6,7 @@ module.exports = {
     mode: 'development',
     entry: {
         game:'./js/game.js',
-        post:'./js/post.js'
+        post:'./js/post.js',
     },
     output:{
         path: path.resolve(__dirname, 'dist'),
