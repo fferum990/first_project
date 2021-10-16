@@ -7,7 +7,7 @@
 
 .img_matvey {
   float: right;
-  width: 500px;
+  width: 30%;
   float: right; }
 
 .flexbox_row {
@@ -23,7 +23,7 @@
 .flexbox_item {
   background-color: #18b5a4;
   padding: 30px 50px;
-  font-size: 50px;
+  font-size: 49%;
   color: #fff;
   font-weight: 700; }
 
@@ -85,4 +85,19 @@
 	.btn-gr:hover:after {
 	-webkit-transform:translateX(-200px);
 	transform:translateX(-200px)
+	}
+	@media (max-width:1200px) {	
+		.container{
+			max-width: 970px;
+		}
+	}
+	@media (max-width:992px) {	
+		.container{
+			max-width: 750px;
+		}
+	}
+	@media (max-width:633px) {	
+		.container{
+			max-width: 520px;
+		}
 	}
