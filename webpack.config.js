@@ -1,6 +1,7 @@
 var path = require ('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const { isDataView } = require('util/types');
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
@@ -29,7 +30,16 @@ module.exports = {
             {
                 test: /\.(png|jpg|svg|gid)$/,
                 use: ['file-loader']
-            }
+            },
+            {
+                test: /\.s[ac]ss$/,
+                use:['style-loader','css-loader','sass-loader']
+            },
+            {
+                test: /\.ts$/,
+                exclude: /node_modules/, 
+                loader: "babel-loader"
+            },
         ]
     }
 };

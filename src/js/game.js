@@ -1,6 +1,7 @@
-import '../css/style.css'
+import "../css/style.scss";
 import food1 from '../img/food.png'
 import ground1 from '../img/ground.png'
+
 var canvas = document.getElementById("game");
 var ctx = canvas.getContext("2d");
 var ground = new Image();
